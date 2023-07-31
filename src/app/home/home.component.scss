@@ -8,7 +8,14 @@
         padding-top: 20px;
         font-family: $fonte-principal;
         font-size: $grande;
-        color: $cor-principal
+        color: $cor-principal;
+        text-align: center;
+    }
+    h2{
+        font-family: $fonte-principal;
+        font-size: $grande;
+        color: $cor-principal;
+        text-align: center;
     }
     mat-grid-tile {
        mat-card{
@@ -23,7 +30,7 @@
             width: 100%;
         }
         mat-card-content {
-            h2{
+            h3{
                 font-family: $fonte-principal;
                 font-size: $grande;
                 color: $cinza-escuro;
@@ -58,6 +65,10 @@
             }
         }
        }
+    }
+    #lista-imoveis{
+        padding-top: 50px;
+        text-align: center;
     }
 }
 

@@ -13,6 +13,7 @@ import { CabecalhoComponent } from './cabecalho/cabecalho.component';
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
+import { DetalhesComponent } from './detalhes/detalhes.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import {MatToolbarModule} from '@angular/material/toolbar';
     AppComponent,
     QuemSomosComponent,
     ContatoComponent,
-    CabecalhoComponent
+    CabecalhoComponent,
+    DetalhesComponent
   ],
   imports: [
     BrowserModule,
