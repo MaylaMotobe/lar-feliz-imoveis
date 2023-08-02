@@ -8,12 +8,14 @@ import { AppComponent } from './app.component';
 import { QuemSomosComponent } from './quem-somos/quem-somos.component';
 import { ContatoComponent } from './contato/contato.component';
 import { CabecalhoComponent } from './cabecalho/cabecalho.component';
+import { DetalhesComponent } from './detalhes/detalhes.component';
+import { RodapeComponent } from './rodape/rodape.component';
 
 //BLOCOS DE MATERIAL UI
 import {MatIconModule} from '@angular/material/icon';
 import {MatButtonModule} from '@angular/material/button';
 import {MatToolbarModule} from '@angular/material/toolbar';
-import { DetalhesComponent } from './detalhes/detalhes.component';
+
 
 
 @NgModule({
@@ -22,7 +24,8 @@ import { DetalhesComponent } from './detalhes/detalhes.component';
     QuemSomosComponent,
     ContatoComponent,
     CabecalhoComponent,
-    DetalhesComponent
+    DetalhesComponent,
+    RodapeComponent
   ],
   imports: [
     BrowserModule,
