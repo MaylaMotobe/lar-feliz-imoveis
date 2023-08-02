@@ -1,10 +1,11 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-detalhes',
   templateUrl: './detalhes.component.html',
-  styleUrls: ['./detalhes.component.scss']
+  styleUrls: ['./detalhes.component.scss'],
+  
 })
 export class DetalhesComponent implements OnInit {
 
@@ -14,7 +15,7 @@ export class DetalhesComponent implements OnInit {
 
   ngOnInit (){
     this.router.paramMap.subscribe(params => {
-      this.imovelId = params.get('id' ?? '')
+      this.imovelId = params.get('id') ?? '';
     })
   }
 }

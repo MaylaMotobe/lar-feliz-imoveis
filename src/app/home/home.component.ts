@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { NgFor, NgIf } from '@angular/common';
 import {MatGridListModule} from '@angular/material/grid-list';
 import {MatCardModule} from '@angular/material/card';
@@ -10,7 +11,17 @@ import {MatCardModule} from '@angular/material/card';
   standalone: true,
   imports: [MatGridListModule, MatCardModule, NgFor, NgIf],
 })
+
+
 export class HomeComponent {
+
+  constructor(private router: Router) { }
+
+  verDetalhes(imovelId: string) {
+    this.router.navigate(['/detalhes', imovelId]);
+  }
+
+
   nome: string = 'Mayla';
   sobrenome: string = 'Motobe';
   // imoveis: string[] = ['Casa Incrível', 'Apartamento Padrão', 'Casa de Campo','Flat Minimalista', 'Sala Comercial', 'Cobertura Duplex'];

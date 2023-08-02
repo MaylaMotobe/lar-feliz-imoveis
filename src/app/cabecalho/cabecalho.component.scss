@@ -12,7 +12,8 @@ mat-toolbar {
             font-family: $fonte-principal;
             font-size: $grande;
             color: $branco;
-            padding-top: 15px; 
+            padding-top: 15px;
+            cursor: pointer; 
         }
         .menu-spacer {
             flex: 1 1 auto;
