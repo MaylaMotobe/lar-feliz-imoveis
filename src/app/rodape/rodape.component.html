@@ -1,7 +1,11 @@
 <footer class="footer">
     <div class="container">
-    <p>&copy; {{ title}} {{copyright}} {{developer}}</p>
-    <mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="redesSociais.icone" style="color: black;"></mat-icon>
+        <div class="texto-rodape">
+    <p>&copy; {{ title}} | {{copyright}} {{developer}}.</p>
+</div>
+    <div class="div-icons" *ngFor="let icon of redesSociais">
+        <a href= {{icon.link}} target="_blank"><img class="icons"  mat-card-image [src]="icon.icone" [alt]="icon"></a>
+    </div>
     </div>
 </footer>
       

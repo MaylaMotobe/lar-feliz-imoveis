@@ -21,10 +21,8 @@ export class HomeComponent {
     this.router.navigate(['/detalhes', imovelId]);
   }
 
-
   nome: string = 'Mayla';
   sobrenome: string = 'Motobe';
-  // imoveis: string[] = ['Casa Incrível', 'Apartamento Padrão', 'Casa de Campo','Flat Minimalista', 'Sala Comercial', 'Cobertura Duplex'];
   //Array <any> vem do ingles qualquer um, pode ser qualquer tipo de dado, ou seja, um objeto, uma string, um number. Declaração obrigatoria, qualquer variavel que declarar, eu preciso declarar o tipo dela em typescript
   imoveis: Array<any> = [
     {

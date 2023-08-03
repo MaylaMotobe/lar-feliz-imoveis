@@ -1,8 +1,35 @@
 @import "../app.component.scss";
 
 footer {
-    background-color: $cor-principal;
+    background-color: $cor-secundaria;
     color: $branco;
     padding: 20px 0;
-    text-align: center;
+    font-size: $media;
+    margin-top: 20px;
+}
+
+.div-icons{
+    filter: invert(100%);
+    margin-right: 10px; 
+    margin-left: 5px;
+}
+
+.texto-rodape{
+    //margin: auto;
+    padding-top: 5px;
+    padding-left: 10%;
+    padding-right: 37%;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    padding-top: 5px;
+    
+    
+}
+
+.icons{
+    display: block;
+    justify-content: end;
 }
