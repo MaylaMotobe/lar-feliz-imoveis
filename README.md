@@ -1,7 +1,6 @@
 # Lar Feliz Imobiliária 
 ## Projeto desenvolvido em Angular no programa Start Tech 2
 
-![Print do Projeto](https://ibb.co/qMLcPwb)](https://nodesource.com/products/nsolid)
 
 Projeto desenvolvido com a turma do Start Tech TOTVS durante o módulo 03 - Angular
 ## Tecnologias Usadas
